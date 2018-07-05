@@ -1,6 +1,6 @@
  
 class Shoe
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :brand, :color, :size, 
  
   def initialize(title)
     @title = title
