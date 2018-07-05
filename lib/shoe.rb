@@ -2,12 +2,12 @@
 class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
  
-  def initialize()
-    @title = title
+  def initialize(properties)
+    @properties = properties
   end
  
-  def title
-    @title
+  def properties
+    @properties
   end
  
   def turn_page
